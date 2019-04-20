@@ -6,4 +6,4 @@ script:
 install:
   - npm install -g firebase-tools
 after_success:
-  - firebase deploy --project siamTest--token 4/MgFTuTbeHTCMwiLvx6ZN1TAYaQdORbnREXHcYRo9-A6CWUPBor-Eo5uVpV3q70FcmZk_2E9IqRm8LlCVrHNz5y4
+  - firebase deploy --project siamTest--token 1/fE2ycoeYkF1L4iE3f3VKhGgi6DseTckf-JZ0rHkLLTaxKYAjwr9JmTf0xw_OHKit
