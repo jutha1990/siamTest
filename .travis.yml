@@ -6,4 +6,4 @@ script:
 install:
   - npm install -g firebase-tools
 after_success:
-  - firebase deploy --project siamTest--token 1/fE2ycoeYkF1L4iE3f3VKhGgi6DseTckf-JZ0rHkLLTaxKYAjwr9JmTf0xw_OHKit
+  - firebase deploy --project siamTest --token "$FIREBASE_TOKEN"
